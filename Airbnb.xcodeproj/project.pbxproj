@@ -7,18 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2A9DA82BE481A500193040 /* LogInButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DA72BE481A500193040 /* LogInButtonView.swift */; };
+		5D2A9DAA2BE4838700193040 /* LogInOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DA92BE4838700193040 /* LogInOptionView.swift */; };
+		5D2A9DAC2BE4864C00193040 /* WishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DAB2BE4864C00193040 /* WishListView.swift */; };
+		5D2A9DAE2BE4887B00193040 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DAD2BE4887B00193040 /* MainTabView.swift */; };
+		5D2A9DB22BE825C500193040 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DB12BE825C500193040 /* Listing.swift */; };
+		5D2A9DB42BE84C9500193040 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DB32BE84C9500193040 /* DeveloperPreview.swift */; };
+		5D2A9DB92BE8606000193040 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DB82BE8606000193040 /* ExploreService.swift */; };
+		5D2A9DBB2BE8606C00193040 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DBA2BE8606C00193040 /* ExploreViewModel.swift */; };
+		5D2A9DBD2BEACE0200193040 /* ListingFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DBC2BEACE0200193040 /* ListingFeatureView.swift */; };
+		5D2A9DBF2BEACEC900193040 /* ListingHostInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DBE2BEACEC900193040 /* ListingHostInfoView.swift */; };
+		5D2A9DC12BEACFB000193040 /* ListingBedroomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DC02BEACFB000193040 /* ListingBedroomsView.swift */; };
+		5D2A9DC32BEAD03E00193040 /* ListingAmenitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DC22BEAD03E00193040 /* ListingAmenitiesView.swift */; };
+		5D2A9DC52BEAFAD300193040 /* ListingPlaceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DC42BEAFAD300193040 /* ListingPlaceInfoView.swift */; };
+		5D9352172BDA247700FC5EDC /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9352162BDA247700FC5EDC /* RatingView.swift */; };
+		5D9352192BDA2B3600FC5EDC /* ProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9352182BDA2B3600FC5EDC /* ProfilePictureView.swift */; };
+		5D93521B2BDAF5B500FC5EDC /* StickyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93521A2BDAF5B500FC5EDC /* StickyView.swift */; };
+		5D93521D2BDAF65C00FC5EDC /* ReserveButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93521C2BDAF65C00FC5EDC /* ReserveButtonView.swift */; };
+		5D93521F2BDAFD8F00FC5EDC /* ListingDetailBackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93521E2BDAFD8F00FC5EDC /* ListingDetailBackButtonView.swift */; };
+		5D9352212BDB0A8500FC5EDC /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9352202BDB0A8500FC5EDC /* DestinationSearchView.swift */; };
 		5DA7EC782BD9A6530011C119 /* AirbnbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7EC772BD9A6530011C119 /* AirbnbApp.swift */; };
 		5DA7EC7A2BD9A6530011C119 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7EC792BD9A6530011C119 /* ContentView.swift */; };
 		5DA7EC7C2BD9A6550011C119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA7EC7B2BD9A6550011C119 /* Assets.xcassets */; };
 		5DA7EC7F2BD9A6550011C119 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA7EC7E2BD9A6550011C119 /* Preview Assets.xcassets */; };
+		5DA7EC922BD9A95B0011C119 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7EC912BD9A95B0011C119 /* ExploreView.swift */; };
+		5DA7EC942BD9AE550011C119 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7EC932BD9AE550011C119 /* ListingItemView.swift */; };
+		5DA7EC962BD9BC730011C119 /* SearchAndFilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7EC952BD9BC730011C119 /* SearchAndFilterBarView.swift */; };
+		5DA7EC982BDA1FB40011C119 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7EC972BDA1FB40011C119 /* ListingDetailView.swift */; };
+		5DA7EC9B2BDA23480011C119 /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7EC9A2BDA23480011C119 /* ListingImageCarouselView.swift */; };
+		5DC4B4E62BE3616100BFD29C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC4B4E52BE3616100BFD29C /* ProfileView.swift */; };
+		5DC8CDA52BDB847800F3D2D0 /* CollaspedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8CDA42BDB847800F3D2D0 /* CollaspedPickerView.swift */; };
+		5DC8CDA72BE1D99500F3D2D0 /* LogicMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8CDA62BE1D99500F3D2D0 /* LogicMethods.swift */; };
+		5DC8CDA92BE1DF4600F3D2D0 /* SearchViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8CDA82BE1DF4600F3D2D0 /* SearchViewModifier.swift */; };
+		5DC8CDAB2BE1E18200F3D2D0 /* ClearButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8CDAA2BE1E18200F3D2D0 /* ClearButtonView.swift */; };
+		5DC8CDAD2BE1F84E00F3D2D0 /* SearchWhereToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8CDAC2BE1F84E00F3D2D0 /* SearchWhereToView.swift */; };
+		5DC8CDAF2BE1FA2700F3D2D0 /* SearchWhenTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8CDAE2BE1FA2700F3D2D0 /* SearchWhenTripView.swift */; };
+		5DC8CDB12BE1FCE200F3D2D0 /* SearchAddGuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8CDB02BE1FCE200F3D2D0 /* SearchAddGuestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D2A9DA72BE481A500193040 /* LogInButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInButtonView.swift; sourceTree = "<group>"; };
+		5D2A9DA92BE4838700193040 /* LogInOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInOptionView.swift; sourceTree = "<group>"; };
+		5D2A9DAB2BE4864C00193040 /* WishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListView.swift; sourceTree = "<group>"; };
+		5D2A9DAD2BE4887B00193040 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		5D2A9DB12BE825C500193040 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
+		5D2A9DB32BE84C9500193040 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
+		5D2A9DB82BE8606000193040 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		5D2A9DBA2BE8606C00193040 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		5D2A9DBC2BEACE0200193040 /* ListingFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingFeatureView.swift; sourceTree = "<group>"; };
+		5D2A9DBE2BEACEC900193040 /* ListingHostInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingHostInfoView.swift; sourceTree = "<group>"; };
+		5D2A9DC02BEACFB000193040 /* ListingBedroomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingBedroomsView.swift; sourceTree = "<group>"; };
+		5D2A9DC22BEAD03E00193040 /* ListingAmenitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingAmenitiesView.swift; sourceTree = "<group>"; };
+		5D2A9DC42BEAFAD300193040 /* ListingPlaceInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingPlaceInfoView.swift; sourceTree = "<group>"; };
+		5D9352162BDA247700FC5EDC /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		5D9352182BDA2B3600FC5EDC /* ProfilePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureView.swift; sourceTree = "<group>"; };
+		5D93521A2BDAF5B500FC5EDC /* StickyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyView.swift; sourceTree = "<group>"; };
+		5D93521C2BDAF65C00FC5EDC /* ReserveButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveButtonView.swift; sourceTree = "<group>"; };
+		5D93521E2BDAFD8F00FC5EDC /* ListingDetailBackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailBackButtonView.swift; sourceTree = "<group>"; };
+		5D9352202BDB0A8500FC5EDC /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		5DA7EC742BD9A6530011C119 /* Airbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA7EC772BD9A6530011C119 /* AirbnbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbApp.swift; sourceTree = "<group>"; };
 		5DA7EC792BD9A6530011C119 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DA7EC7B2BD9A6550011C119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA7EC7E2BD9A6550011C119 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DA7EC912BD9A95B0011C119 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		5DA7EC932BD9AE550011C119 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
+		5DA7EC952BD9BC730011C119 /* SearchAndFilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBarView.swift; sourceTree = "<group>"; };
+		5DA7EC972BDA1FB40011C119 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
+		5DA7EC9A2BDA23480011C119 /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
+		5DC4B4E52BE3616100BFD29C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5DC8CDA42BDB847800F3D2D0 /* CollaspedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaspedPickerView.swift; sourceTree = "<group>"; };
+		5DC8CDA62BE1D99500F3D2D0 /* LogicMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicMethods.swift; sourceTree = "<group>"; };
+		5DC8CDA82BE1DF4600F3D2D0 /* SearchViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModifier.swift; sourceTree = "<group>"; };
+		5DC8CDAA2BE1E18200F3D2D0 /* ClearButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButtonView.swift; sourceTree = "<group>"; };
+		5DC8CDAC2BE1F84E00F3D2D0 /* SearchWhereToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWhereToView.swift; sourceTree = "<group>"; };
+		5DC8CDAE2BE1FA2700F3D2D0 /* SearchWhenTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWhenTripView.swift; sourceTree = "<group>"; };
+		5DC8CDB02BE1FCE200F3D2D0 /* SearchAddGuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAddGuestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +96,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D2A9DAF2BE8259C00193040 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7EC932BD9AE550011C119 /* ListingItemView.swift */,
+				5DA7EC972BDA1FB40011C119 /* ListingDetailView.swift */,
+				5D93521A2BDAF5B500FC5EDC /* StickyView.swift */,
+				5D2A9DBC2BEACE0200193040 /* ListingFeatureView.swift */,
+				5D2A9DBE2BEACEC900193040 /* ListingHostInfoView.swift */,
+				5D2A9DC02BEACFB000193040 /* ListingBedroomsView.swift */,
+				5D2A9DC22BEAD03E00193040 /* ListingAmenitiesView.swift */,
+				5D2A9DC42BEAFAD300193040 /* ListingPlaceInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D2A9DB02BE825A100193040 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A9DB12BE825C500193040 /* Listing.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D2A9DB52BE8603200193040 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A9DBA2BE8606C00193040 /* ExploreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D2A9DB62BE8603500193040 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7EC912BD9A95B0011C119 /* ExploreView.swift */,
+				5DA7EC952BD9BC730011C119 /* SearchAndFilterBarView.swift */,
+				5D9352202BDB0A8500FC5EDC /* DestinationSearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D2A9DB72BE8603C00193040 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A9DB82BE8606000193040 /* ExploreService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		5DA7EC6B2BD9A6530011C119 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +164,11 @@
 		5DA7EC762BD9A6530011C119 /* Airbnb */ = {
 			isa = PBXGroup;
 			children = (
-				5DA7EC772BD9A6530011C119 /* AirbnbApp.swift */,
-				5DA7EC792BD9A6530011C119 /* ContentView.swift */,
+				5DA7EC892BD9A76E0011C119 /* App */,
+				5DA7EC882BD9A76D0011C119 /* Core */,
+				5DA7EC872BD9A76C0011C119 /* Extensions */,
+				5DA7EC862BD9A76B0011C119 /* Models */,
+				5DA7EC852BD9A7690011C119 /* Utils */,
 				5DA7EC7B2BD9A6550011C119 /* Assets.xcassets */,
 				5DA7EC7D2BD9A6550011C119 /* Preview Content */,
 			);
@@ -65,6 +181,130 @@
 				5DA7EC7E2BD9A6550011C119 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DA7EC852BD9A7690011C119 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5DA7EC862BD9A76B0011C119 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5DA7EC872BD9A76C0011C119 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5DC8CDA62BE1D99500F3D2D0 /* LogicMethods.swift */,
+				5D2A9DB32BE84C9500193040 /* DeveloperPreview.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5DA7EC882BD9A76D0011C119 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7EC992BDA23290011C119 /* Components */,
+				5DA7EC8A2BD9A7B80011C119 /* Explore */,
+				5DA7EC8B2BD9A7B90011C119 /* Listings */,
+				5DA7EC8C2BD9A7BA0011C119 /* MapView */,
+				5DA7EC8D2BD9A7BC0011C119 /* Profile */,
+				5DA7EC8E2BD9A7C50011C119 /* Root */,
+				5DA7EC8F2BD9A7C60011C119 /* TabBar */,
+				5DA7EC902BD9A7C70011C119 /* WishList */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5DA7EC892BD9A76E0011C119 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7EC772BD9A6530011C119 /* AirbnbApp.swift */,
+				5DA7EC792BD9A6530011C119 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5DA7EC8A2BD9A7B80011C119 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A9DB72BE8603C00193040 /* Service */,
+				5D2A9DB62BE8603500193040 /* View */,
+				5D2A9DB52BE8603200193040 /* ViewModel */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		5DA7EC8B2BD9A7B90011C119 /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A9DB02BE825A100193040 /* Model */,
+				5D2A9DAF2BE8259C00193040 /* View */,
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		5DA7EC8C2BD9A7BA0011C119 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		5DA7EC8D2BD9A7BC0011C119 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5DC4B4E52BE3616100BFD29C /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5DA7EC8E2BD9A7C50011C119 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		5DA7EC8F2BD9A7C60011C119 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A9DAD2BE4887B00193040 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		5DA7EC902BD9A7C70011C119 /* WishList */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A9DAB2BE4864C00193040 /* WishListView.swift */,
+			);
+			path = WishList;
+			sourceTree = "<group>";
+		};
+		5DA7EC992BDA23290011C119 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7EC9A2BDA23480011C119 /* ListingImageCarouselView.swift */,
+				5D9352162BDA247700FC5EDC /* RatingView.swift */,
+				5D9352182BDA2B3600FC5EDC /* ProfilePictureView.swift */,
+				5D93521C2BDAF65C00FC5EDC /* ReserveButtonView.swift */,
+				5D93521E2BDAFD8F00FC5EDC /* ListingDetailBackButtonView.swift */,
+				5DC8CDA42BDB847800F3D2D0 /* CollaspedPickerView.swift */,
+				5DC8CDA82BE1DF4600F3D2D0 /* SearchViewModifier.swift */,
+				5DC8CDAA2BE1E18200F3D2D0 /* ClearButtonView.swift */,
+				5DC8CDAC2BE1F84E00F3D2D0 /* SearchWhereToView.swift */,
+				5DC8CDAE2BE1FA2700F3D2D0 /* SearchWhenTripView.swift */,
+				5DC8CDB02BE1FCE200F3D2D0 /* SearchAddGuestView.swift */,
+				5D2A9DA72BE481A500193040 /* LogInButtonView.swift */,
+				5D2A9DA92BE4838700193040 /* LogInOptionView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +377,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC8CDA72BE1D99500F3D2D0 /* LogicMethods.swift in Sources */,
+				5D9352212BDB0A8500FC5EDC /* DestinationSearchView.swift in Sources */,
+				5DA7EC9B2BDA23480011C119 /* ListingImageCarouselView.swift in Sources */,
+				5DC8CDA92BE1DF4600F3D2D0 /* SearchViewModifier.swift in Sources */,
+				5D2A9DC12BEACFB000193040 /* ListingBedroomsView.swift in Sources */,
+				5D2A9DBD2BEACE0200193040 /* ListingFeatureView.swift in Sources */,
+				5D2A9DAA2BE4838700193040 /* LogInOptionView.swift in Sources */,
+				5DC8CDA52BDB847800F3D2D0 /* CollaspedPickerView.swift in Sources */,
+				5DC8CDAD2BE1F84E00F3D2D0 /* SearchWhereToView.swift in Sources */,
+				5D2A9DA82BE481A500193040 /* LogInButtonView.swift in Sources */,
+				5DC8CDAB2BE1E18200F3D2D0 /* ClearButtonView.swift in Sources */,
+				5D93521B2BDAF5B500FC5EDC /* StickyView.swift in Sources */,
+				5D9352192BDA2B3600FC5EDC /* ProfilePictureView.swift in Sources */,
+				5DC8CDB12BE1FCE200F3D2D0 /* SearchAddGuestView.swift in Sources */,
+				5D2A9DBB2BE8606C00193040 /* ExploreViewModel.swift in Sources */,
+				5DA7EC942BD9AE550011C119 /* ListingItemView.swift in Sources */,
+				5D93521D2BDAF65C00FC5EDC /* ReserveButtonView.swift in Sources */,
 				5DA7EC7A2BD9A6530011C119 /* ContentView.swift in Sources */,
+				5D2A9DB92BE8606000193040 /* ExploreService.swift in Sources */,
+				5D9352172BDA247700FC5EDC /* RatingView.swift in Sources */,
+				5DC8CDAF2BE1FA2700F3D2D0 /* SearchWhenTripView.swift in Sources */,
+				5D2A9DC52BEAFAD300193040 /* ListingPlaceInfoView.swift in Sources */,
+				5D2A9DB42BE84C9500193040 /* DeveloperPreview.swift in Sources */,
+				5D93521F2BDAFD8F00FC5EDC /* ListingDetailBackButtonView.swift in Sources */,
+				5DA7EC922BD9A95B0011C119 /* ExploreView.swift in Sources */,
+				5D2A9DAE2BE4887B00193040 /* MainTabView.swift in Sources */,
+				5D2A9DB22BE825C500193040 /* Listing.swift in Sources */,
+				5DA7EC962BD9BC730011C119 /* SearchAndFilterBarView.swift in Sources */,
+				5D2A9DBF2BEACEC900193040 /* ListingHostInfoView.swift in Sources */,
+				5DA7EC982BDA1FB40011C119 /* ListingDetailView.swift in Sources */,
+				5D2A9DC32BEAD03E00193040 /* ListingAmenitiesView.swift in Sources */,
+				5DC4B4E62BE3616100BFD29C /* ProfileView.swift in Sources */,
 				5DA7EC782BD9A6530011C119 /* AirbnbApp.swift in Sources */,
+				5D2A9DAC2BE4864C00193040 /* WishListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -41,7 +41,7 @@ N/A
 
 ## Authors
 
-Contributors names and contact info
+Contributors info:
 
 **Abdul Mueed Hassan**
 

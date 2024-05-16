@@ -12,7 +12,8 @@ import Foundation
 class DeveloperPreview {
     static let shared = DeveloperPreview()
     
-    var listings: [Listing] = [
+    var listings: [Listing] = 
+    [
         .init(
             id: NSUUID().uuidString,
             ownerUid: NSUUID().uuidString,
@@ -26,6 +27,7 @@ class DeveloperPreview {
             latitude: 25.7850,
             longitude: -80.1936,
             imageURLs: ["listing-3", "listing-2", "listing-1", "listing-4"],
+            imageMessage: "listing-3",
             address: "1234 Main SE Ave",
             city: "Seattle",
             state: "WA",
@@ -49,6 +51,7 @@ class DeveloperPreview {
             latitude: 25.7850,
             longitude: -80.1936,
             imageURLs: ["listing-2", "listing-4", "listing-1", "listing-3"],
+            imageMessage: "listing-2",
             address: "5678 SE Ave",
             city: "Renton",
             state: "WA",
@@ -58,5 +61,68 @@ class DeveloperPreview {
             amenities: [.wifi, .alarmSystem, .tv],
             type: .house
         )
+    ]
+    
+    var messages: [Messages] = 
+    [
+        .init(
+            airHostMessageTitle: .closedStatus,
+            airHostSupport: "AirHost Support",
+            airHostMessage: "Hi, welcome to AirHost! Hope you like using our AirHost app!",
+            tripStatus: .upcommingStatus,
+            hostMessage: "Hi Momotaj, hope you're having fun staying here!",
+            dateStayed: "3/14 - 3/17",
+            dateMessaged: "Today"
+        ),
+        
+        .init(
+            airHostMessageTitle: .closedStatus,
+            airHostSupport: "AirHost Support",
+            airHostMessage: "Hi, welcome to AirHost! Hope you like using our AirHost app!",
+            tripStatus: .upcommingStatus,
+            hostMessage: "Hi Alex, hope you're having fun staying here!",
+            dateStayed: "3/1 - 3/17",
+            dateMessaged: "Yesterday"
+        ),
+        
+        .init(
+            airHostMessageTitle: .closedStatus,
+            airHostSupport: "AirHost Support",
+            airHostMessage: "Hi, welcome to AirHost! Hope you like using our AirHost app!",
+            tripStatus: .upcommingStatus,
+            hostMessage: "Hi David, hope you're having fun staying here!",
+            dateStayed: "3/20 - 3/25",
+            dateMessaged: "3/20"
+        ),
+        
+        .init(
+            airHostMessageTitle: .closedStatus,
+            airHostSupport: "AirHost Support",
+            airHostMessage: "Hi, welcome to AirHost! Hope you like using our AirHost app!",
+            tripStatus: .upcommingStatus,
+            hostMessage: "Hi Hassan, hope you're having fun staying here!",
+            dateStayed: "3/14 - 3/17",
+            dateMessaged: "Today"
+        ),
+        
+        .init(
+            airHostMessageTitle: .closedStatus,
+            airHostSupport: "AirHost Support",
+            airHostMessage: "Hi, welcome to AirHost! Hope you like using our AirHost app!",
+            tripStatus: .upcommingStatus,
+            hostMessage: "Hi Momotaj, hope you're having fun staying here!",
+            dateStayed: "3/14 - 3/17",
+            dateMessaged: "Yesterday"
+        ),
+        
+        .init(
+            airHostMessageTitle: .closedStatus,
+            airHostSupport: "AirHost Support",
+            airHostMessage: "Hi, welcome to AirHost! Hope you like using our AirHost app!",
+            tripStatus: .upcommingStatus,
+            hostMessage: "Hi Momotaj, hope you're having fun staying here!",
+            dateStayed: "3/3 - 3/23",
+            dateMessaged: "3/3"
+        ),
     ]
 }

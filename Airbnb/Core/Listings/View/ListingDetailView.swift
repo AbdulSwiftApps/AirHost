@@ -49,15 +49,7 @@ struct ListingDetailView: View {
                 
                 
                 // map
-                VStack(alignment: .leading, spacing: 16) {
-                    Text("Where you'll be")
-                        .font(.headline)
-                    
-                    Map()
-                        .frame(height: 200)
-                        .clipShape(RoundedRectangle(cornerRadius: 12))
-                }
-                .padding()
+                ListingMapView()
                 
             }
             .toolbar(.hidden, for: .tabBar)

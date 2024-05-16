@@ -20,6 +20,7 @@ struct Listing: Identifiable, Codable, Hashable {
     let latitude: Double
     let longitude: Double
     var imageURLs: [String]
+    var imageMessage: String
     let address: String
     let city: String
     let state: String

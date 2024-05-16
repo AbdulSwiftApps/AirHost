@@ -24,6 +24,12 @@ struct MainTabView: View {
                 .tabItem {
                     Label("Profile", systemImage: "person.fill")
                 }
+            
+            MessageView(messages: DeveloperPreview.shared.messages[0])
+                .tabItem {
+                    Label("Messages", systemImage: "message")
+                }
+            
         }
     }
 }

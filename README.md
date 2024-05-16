@@ -3,7 +3,9 @@
 
 The Airbnb app copy made with Swift and SwiftUI lets people easily find, book, and list places to stay. It's simple to use and helps users discover accommodations all over the world. Guests can check out detailed listings, book their stays, and keep track of their plans hassle-free. Hosts can quickly create and manage their listings, chat with guests, and ensure everything goes smoothly. With safe payments and messaging built-in, the app makes it simple for everyone to trust and enjoy their stays.
 
-https://github.com/AbdulSwiftApps/Airbnb/assets/94038777/1df9f2d3-a080-471f-8426-09d457d31413
+
+https://github.com/AbdulSwiftApps/Airbnb/assets/94038777/d0a04aba-c05b-4893-9e02-80a451a41ea2
+
 
 ## Description
 

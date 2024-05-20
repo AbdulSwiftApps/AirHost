@@ -27,6 +27,7 @@
 		5D2A9DD22BF2B19E00193040 /* FilterNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DD12BF2B19E00193040 /* FilterNavView.swift */; };
 		5D2A9DD42BF2B7C900193040 /* UserMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DD32BF2B7C900193040 /* UserMessageView.swift */; };
 		5D2A9DDC2BF69A8000193040 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A9DDB2BF69A8000193040 /* Messages.swift */; };
+		5D5826132BFC0325007C38DA /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5826122BFC0325007C38DA /* Regions.swift */; };
 		5D9352172BDA247700FC5EDC /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9352162BDA247700FC5EDC /* RatingView.swift */; };
 		5D9352192BDA2B3600FC5EDC /* ProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9352182BDA2B3600FC5EDC /* ProfilePictureView.swift */; };
 		5D93521B2BDAF5B500FC5EDC /* StickyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93521A2BDAF5B500FC5EDC /* StickyView.swift */; };
@@ -73,6 +74,7 @@
 		5D2A9DD12BF2B19E00193040 /* FilterNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterNavView.swift; sourceTree = "<group>"; };
 		5D2A9DD32BF2B7C900193040 /* UserMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMessageView.swift; sourceTree = "<group>"; };
 		5D2A9DDB2BF69A8000193040 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		5D5826122BFC0325007C38DA /* Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
 		5D9352162BDA247700FC5EDC /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		5D9352182BDA2B3600FC5EDC /* ProfilePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureView.swift; sourceTree = "<group>"; };
 		5D93521A2BDAF5B500FC5EDC /* StickyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyView.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 			children = (
 				5DC8CDA62BE1D99500F3D2D0 /* LogicMethods.swift */,
 				5D2A9DB32BE84C9500193040 /* DeveloperPreview.swift */,
+				5D5826122BFC0325007C38DA /* Regions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				5DA7EC962BD9BC730011C119 /* SearchAndFilterBarView.swift in Sources */,
 				5D2A9DBF2BEACEC900193040 /* ListingHostInfoView.swift in Sources */,
 				5DA7EC982BDA1FB40011C119 /* ListingDetailView.swift in Sources */,
+				5D5826132BFC0325007C38DA /* Regions.swift in Sources */,
 				5D2A9DC32BEAD03E00193040 /* ListingAmenitiesView.swift in Sources */,
 				5DC4B4E62BE3616100BFD29C /* ProfileView.swift in Sources */,
 				5DA7EC782BD9A6530011C119 /* AirbnbApp.swift in Sources */,

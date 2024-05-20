@@ -36,7 +36,7 @@ struct ExploreView: View {
                     }
                 }
                 .navigationDestination(for: Listing.self) { listing in
-                        ListingDetailView(listing: listing2)
+                        ListingDetailView(listing: listing)
                             .navigationBarBackButtonHidden()
                 }
             }

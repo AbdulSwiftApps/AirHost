@@ -19,17 +19,16 @@ struct MainTabView: View {
                 .tabItem {
                     Label("Wishlists", systemImage: "heart.fill")
                 }
-            
-            ProfileView()
-                .tabItem {
-                    Label("Profile", systemImage: "person.fill")
-                }
-            
+
             MessageView(messages: DeveloperPreview.shared.messages[0])
                 .tabItem {
                     Label("Messages", systemImage: "message")
                 }
-            
+
+            ProfileView()
+                .tabItem {
+                    Label("Profile", systemImage: "person.fill")
+                }
         }
     }
 }
